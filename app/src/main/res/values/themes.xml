@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+        <style name="Base.Theme.AdivinaArtistas" parent="Theme.Material3.DayNight.NoActionBar">
+            <!-- Customize your light theme here. -->
+            <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        </style>
+
+        <style name="Theme.AdivinaArtistas" parent="Base.Theme.AdivinaArtistas" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.AdivinaArtistas</item>
+    </style>
+</resources>
